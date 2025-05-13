@@ -1,0 +1,244 @@
+/* XL Screen */
+@media screen and (width > 1200px) {
+    /* Start operations */
+    .operation-card .contact-wrapper {
+             gap: 4rem;
+    }
+    /* End operations */
+
+    /* Start Partners*/
+ 
+    /* End Partners*/
+
+    /* Start work with together */
+     .workwith .workwith-wrapper{
+        align-items: center;
+    }
+    /* End work with together */
+
+    /* Start footer */
+    .last-news-form form{
+        gap: 1rem;
+    }
+    /* End footer */
+}
+
+/* L Screen */
+
+@media screen and (width < 1200px) and (width > 770px) {
+      /* Start Partners*/
+      .partners .partners-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .partners-wrapper .partner-title  {
+        order: -2;
+    }
+
+    .partners-wrapper .partner-subtitle  {
+        order: -1;
+    }
+
+    .partners-wrapper .partnerbtn{
+        order: 1;
+    }
+    /* End Partners*/
+
+      /* Start work with together */
+        .workwith .workwith-wrapper{
+            align-items: center;
+        }
+    /* End work with together */
+
+     /* Start Social Media */
+        .social-media .social-media-wrapper{
+            flex-direction: column;
+            text-align: center;
+        }
+    /* End Social Media */
+}
+
+/* M Screen */  
+@media screen and (width < 770px) {
+    /* Start Services */
+    .services .services-wrapper{
+     flex-direction: column;
+     gap: 3rem;
+    }
+    /* End Services */
+
+    /* Start operations */
+    .operations-wrapper .operations-description{
+        grid-template-columns:  1fr;
+    }
+
+    .operations-description .operation-card{
+        padding-block: 1rem;
+    }
+
+    .operations-description .operation-card .operation-image-wrapper{
+    margin: 0 auto;
+    }
+
+    /* End operations */
+
+    /* Start Partners*/
+    .partners .partners-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .partner-card .partner-image-wrapper {
+        width: 300px;
+        height: 307px;
+    }
+
+    .partners-wrapper .partner-title  {
+        order: -2;
+    }
+
+    .partners-wrapper .partner-subtitle  {
+        order: -1;
+    }
+
+    .partners-wrapper .partnerbtn{
+        order: 1;
+    }
+    /* End Partners*/
+
+    /* Start work with together */
+    .workwith .workwith-wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+    /* End work with together */
+
+    /* Start heaser */
+    .header .header-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+     }
+     .header-wrapper ul{
+         padding-top: 1rem;
+         padding-left: 0;
+     }
+     /* End heaser */
+
+    /* Start Social Media */
+    .social-media .social-media-wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* End Social Media */
+
+     /* Start footer */
+     .footer-wrapper .footer-top{
+        flex-direction: column;
+    }
+
+    .footer-wrapper .footer-top h2 {
+        width: 100%;
+    }
+
+    .footer-wrapper .footer-top div{
+        width: 100%;
+    }
+
+    .footer-wrapper .footer-bottom{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .last-news-form form{
+        gap: 0.5rem;
+    }
+
+
+    .last-news-form .submitbtn{
+        font-size: 2rem;
+    }
+    /* End footer */
+ 
+}
+
+/* S Screen */  
+@media screen and (width < 430px) {
+    /* Start heaser */
+    .header .header-wrapper {
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .header-wrapper ul{
+        padding-top: 1rem;
+        padding-left: 0;
+    }
+    /* End heaser */
+
+    /* Start Services */
+    .services-wrapper p{
+        width: 100%;
+    }
+    .services-wrapper .services-card-wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 3rem;
+    }
+    /* End Services */
+
+    /* Start operations*/
+    .operation-card .middle-image-wrapper {
+        width: 300px;
+    }
+
+    .operation-card .contact-wrapper {
+        width: 50px;
+    }
+    /* End operations*/
+
+
+    /* Start Partners*/
+    .partners .partners-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* End Partners */
+
+     /* Start work with together */
+    .team-member{
+         flex-direction: column;
+
+     }
+     .workwith .workwith-wrapper h2{
+         text-align: center;
+     }
+
+     .member-description{
+         margin-top: 1rem;
+     }
+    /* End work with together */
+
+    /* Start Social Media */
+      .social-media .social-media-wrapper{
+          flex-direction: column;
+          text-align: center;
+      }
+
+      .social-media-wrapper .social-media-image{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+    }
+    /* End Social Media */
+
+    /* Start footer */
+    .footer-wrapper .footer-top h2 {
+        font-size: var(--fs-2);
+    }
+
+    .footer-wrapper .footer-bottom{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-bottom .footer-col:nth-child(1){
+        align-items: flex-start;
+    }
+    /* End footer */
+   
+  }

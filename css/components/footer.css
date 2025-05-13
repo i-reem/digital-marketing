@@ -1,0 +1,73 @@
+.footer .footer-wrapper{
+    background-color: var(--color-primary);
+    color: var( --color-white);
+}
+.footer-wrapper h3{
+    font-size: var(--fs-p-2);
+    font-weight: 400;
+}
+
+.footer-wrapper .footer-top h2{
+    font-size: var(--fs-1);
+    width: 25%;
+}
+
+.footer-wrapper .footer-top div{
+    width: 65%;
+}
+
+.footer-wrapper .footer-top .last-news-form{
+    background-color: rgba(244, 243, 243, 5%);
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+}
+.last-news-form h3{
+    padding-top: 24px;
+    padding-right: 24px;
+}
+
+.last-news-form .form-control::placeholder{
+    font-weight: 100;
+}
+
+.last-news-form .submitbtn{
+    color: var(--color-secondary);
+    font-size: 3rem;
+    background:none;
+    outline: none;
+    border: none;
+    transition: color var( --time-primary) ease-in-out;
+}
+
+.last-news-form .submitbtn:hover{
+    color: var(--color-primary);
+}
+
+.footer-wrapper .footer-bottom{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-bottom .footer-logo{
+    width: 98px;
+    height: 85px;
+}
+
+.footer-bottom .logo-text{
+    font-size: var(--fs-1);
+    font-weight: 100;
+}
+
+.footer-bottom .footer-link a{
+    color: var(--color-secondary);
+    transition: color var( --time-primary) ease-in-out;
+}
+
+.footer-bottom .footer-link a:hover{
+    color: var(--color-white);
+}
+
+.footer-bottom .last-news-image-wrapper{
+    width: 242px;
+    height: 149px;
+}
